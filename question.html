@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Вопрос #43</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/general/favicon.ico" type="image/x-icon">
+    <style>@charset "UTF-8";.mfp-hide{display:none!important}button::-moz-focus-inner{padding:0;border:0}@font-face{font-family:Manrope-Regular;src:url(../../fonts/Manrope/Manrope-Regular.woff)}@font-face{font-family:Manrope-Medium;src:url(../../fonts/Manrope/Manrope-Medium.woff)}@font-face{font-family:Manrope-SemiBold;src:url(../../fonts/Manrope/Manrope-SemiBold.woff)}@font-face{font-family:Manrope-Bold;src:url(../../fonts/Manrope/Manrope-Bold.woff)}@font-face{font-family:Manrope-ExtraBold;src:url(../../fonts/Manrope/Manrope-ExtraBold.otf)}html{font:16px Manrope-Regular,sans-serif;height:100%}body{height:100%;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5;color:#202020}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}ul[class]{list-style:none;padding:0}body,h2,h4,li,p,ul[class]{margin:0}img{max-width:100%;display:block}button,input,textarea{font:inherit}@media (prefers-reduced-motion:reduce){*{-webkit-animation-duration:0s!important;animation-duration:0s!important;-webkit-animation-iteration-count:1!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}textarea{resize:none}.wrapper{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.content{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.container{margin:0 auto;max-width:1620px;width:100%;padding:0 15px}.btn{font:12px Manrope-Bold,sans-serif;display:block;border:1px solid #1781e3;border-radius:74px;text-decoration:none;color:#1781e3;padding:15px;text-transform:uppercase;letter-spacing:.05em}.logo{display:block;width:115px}@media screen and (max-width:768px){.logo{width:90px}}@media screen and (max-width:480px){.logo{width:70px}}.search-prev{position:relative;width:796px}@media screen and (max-width:1400px){.search-prev{width:550px}}@media screen and (max-width:1140px){.search-prev{width:350px}}@media screen and (max-width:940px){.search-prev{width:223px}}@media screen and (max-width:820px){.search-prev{width:100%;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1;padding-top:10px;padding-bottom:10px}}@media screen and (max-width:768px){.search-prev{padding-top:5px;padding-bottom:5px}}.search-prev__field{background:#f7f7f7;display:block;width:100%;border:1px solid #eee;border-radius:54px;padding:13px 20px 13px 60px;font-size:14px;color:#525252;outline:0}@media screen and (max-width:768px){.search-prev__field{padding:9px 40px}}.search-prev__field::-webkit-input-placeholder{font-size:14px;color:#525252}.search-prev__field::-moz-placeholder{font-size:14px;color:#525252}.search-prev__field:-ms-input-placeholder{font-size:14px;color:#525252}.search-prev__field::-ms-input-placeholder{font-size:14px;color:#525252}.search-prev__submit{background:0 0;position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:23px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;border:0;width:37px;padding-right:15px;height:100%;outline:0}@media screen and (max-width:768px){.search-prev__submit{left:8px}}.search-prev__icon{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;fill:#525252;width:16px;height:16px}@media screen and (max-width:768px){.search-prev__icon{width:14px;height:14px}}.user-dropdown{background:#fff;display:none;position:absolute;z-index:1;bottom:0;left:50%;border-radius:2px;-webkit-transform:translate(-50%,100%);-ms-transform:translate(-50%,100%);transform:translate(-50%,100%);-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,.15);box-shadow:0 0 10px 0 rgba(0,0,0,.15);width:264px}.user-dropdown--width{width:-webkit-max-content;width:-moz-max-content;width:max-content}.user-dropdown__header{padding:10px 15px;border-bottom:1px solid #eee}.user-dropdown__name{font-family:Manrope-Medium,sans-serif;display:block;text-decoration:none;color:#202020}.user-dropdown__menu{padding:10px 15px;border-bottom:1px solid #eee}.user-dropdown__link{display:block;text-decoration:none;color:#000;font-size:14px}.user-dropdown__link:not(:last-child){padding-bottom:7px}.user-dropdown__footer{padding:10px 15px}.user-dropdown__text{display:block;text-align:center}@media screen and (max-width:768px){.user-dropdown__text{font-size:14px}}@media screen and (max-width:768px){.user-nav{margin-left:auto}}.user-nav__list{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.user-nav__icon{fill:#99a2ad;width:24px;height:24px}@media screen and (max-width:768px){.user-nav__icon{width:16px;height:16px}}.user-nav__item{position:relative;padding:12px 0}@media screen and (max-width:768px){.user-nav__item{padding:5px 0}}.user-nav__item:not(:last-child){margin-right:14px}@media screen and (max-width:480px){.user-nav__item:not(:last-child){margin-right:8px}}.user-nav__link{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-decoration:none;width:50px;height:50px;border-radius:50%;border:1px solid #eee}@media screen and (max-width:768px){.user-nav__link{width:38px;height:38px}}@media screen and (max-width:480px){.user-nav__link{width:34px;height:34px}}.sandwich{display:none;margin-right:15px}@media screen and (max-width:768px){.sandwich{display:block}}.sandwich__open-btn{display:block;padding:6px 6px 5px}.sandwich__line{background:#202020;display:block;width:24px;height:3px;border-radius:6px}.sandwich__line:not(:last-child){margin-bottom:4px}.sandwich__content{background:#f8f8f8;position:fixed;overflow:hidden;left:-100%;top:0;width:320px;height:100%;z-index:999}.sandwich__header{padding:10px 15px;border-bottom:1px solid #eee}.sandwich__footer{padding:10px 15px;margin-top:auto}.sandwich__close-btn{background:0 0;display:block;position:absolute;right:15px;top:10px;border:0;outline:0}.sandwich__close-icon{width:14px;height:14px}.sandwich__question-link{width:100%;text-align:center;border-radius:2px}@media screen and (max-width:768px){.sandwich-points__num{font-size:12px}}.sandwich-nav__link{display:block;text-decoration:none;padding:10px 15px;color:#202020;border-bottom:1px solid #eee;font-size:14px}.user-prev{background-repeat:no-repeat;background-size:cover;background-position:center;border:none}.question-link{background:#1781e3;display:inline-block;color:#fff;padding:15px 32px}@media screen and (max-width:640px){.question-link{padding:12px 25px}}@media screen and (max-width:520px){.question-link{padding:10px 20px;font-size:12px}}.main{padding:50px 0 170px 0}@media screen and (max-width:768px){.main{padding:30px 0 100px 0}}.main__content .container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}@media screen and (max-width:860px){.main__content .container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}}.main-side{padding:0 30px;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}@media screen and (max-width:1200px){.main-side{padding-left:0}}@media screen and (max-width:860px){.main-side{padding-right:0}}.main-side--paddleft{padding-left:0}.aside-right{width:360px}@media screen and (max-width:1340px){.aside-right{width:300px}}@media screen and (max-width:860px){.aside-right{width:100%}}.show-more{background:0 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;border-top:1px solid #eee;border-left:0;border-right:0;border-bottom:0;padding:17px;outline:0;color:#202020}@media screen and (max-width:520px){.show-more{padding:14px}}.show-more__text{font:12px Manrope-Bold,sans-serif;display:block;text-transform:uppercase;padding-right:15px;letter-spacing:.05em}.show-more__arrow{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:11px;height:11px}.points-user{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.points-user__icon{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;fill:#7ac834;margin-right:10px;width:19px;height:19px}@media screen and (max-width:520px){.points-user__icon{margin-right:6px}}.points-user__title{font:14px Manrope-Medium,sans-serif;display:block;padding-right:11px;letter-spacing:.05em;color:#848a90}@media screen and (max-width:520px){.points-user__title{font-size:12px;padding-right:6px}}.points-user__num{font-family:Manrope-SemiBold,sans-serif;color:#9e9e9e}@media screen and (max-width:520px){.points-user__num{font-size:12px}}.points-user__num--current{color:#7ac834}.new-dropdown{display:none;left:0;position:absolute;z-index:99;top:100%;right:0;-webkit-box-shadow:0 3px 32px 0 rgba(2,10,27,.15);box-shadow:0 3px 32px 0 rgba(2,10,27,.15);border-radius:20px}.new-dropdown__item{background:#fff;display:block;font-size:14px;text-align:center;padding:8px}@media screen and (max-width:520px){.new-dropdown__item{padding:6px 3px;font-size:10px}}.new-dropdown__item:first-child{border-top-left-radius:20px;border-top-right-radius:20px}.new-dropdown__item:last-child{border-bottom-left-radius:20px;border-bottom-right-radius:20px}.new-note{background:#ffc01e;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-radius:74px;padding:4px 11px;margin-left:27px}@media screen and (max-width:620px){.new-note{display:none}}.new-note--blue{background:#1781e3}.new-note__text{font:12px Manrope-SemiBold,sans-serif;color:#fff;display:block}.new-note__icon{width:11px;height:11px;fill:#fff;margin-right:8px}.new-prev{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:40px 38px 30px 38px}@media screen and (max-width:991px){.new-prev{padding:30px}}@media screen and (max-width:520px){.new-prev{padding:20px 15px}}.new-prev:not(:last-child){border-bottom:1px solid #eee}.new-prev__content{padding-left:23px;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}@media screen and (max-width:520px){.new-prev__content{padding-left:10px}}.new-prev__header{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.new-prev__name{font-family:Manrope-SemiBold,sans-serif;display:block;padding-right:23px;text-decoration:none;color:#202020}@media screen and (max-width:520px){.new-prev__name{font-size:14px;padding-right:10px}}@media screen and (max-width:380px){.new-prev__name{width:100%}}.new-prev__time{display:block;font-size:14px;color:#99a2ad}@media screen and (max-width:520px){.new-prev__time{font-size:12px}}.new-prev__main{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:8px;text-decoration:none;color:#202020}.new-prev__desc{font-size:14px;color:#525252;line-height:21px;padding-right:25px}@media screen and (max-width:520px){.new-prev__desc{font-size:12px;line-height:18px;padding-right:10px}}.new-prev__circle{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background:-webkit-gradient(linear,left top,right top,from(#00f1ff),color-stop(23.1%,#00d8ff),color-stop(51.38%,#00c0ff),color-stop(77.73%,#00b2ff),to(#00adff));background:-o-linear-gradient(left,#00f1ff 0,#00d8ff 23.1%,#00c0ff 51.38%,#00b2ff 77.73%,#00adff 100%);background:linear-gradient(90deg,#00f1ff 0,#00d8ff 23.1%,#00c0ff 51.38%,#00b2ff 77.73%,#00adff 100%)}.new-prev__circle-icon{width:25px;height:25px;fill:#fff}.new-prev__circle-icon--user{fill:#99a2ad;width:18px;height:18px}.file-upload{padding-bottom:10px}.file-upload__field{display:none}.file-upload__text{font:12px Manrope-Bold,sans-serif;display:block;text-transform:uppercase;letter-spacing:.05em;padding-left:11px}@media screen and (max-width:520px){.file-upload__text{font-size:8px;padding-left:6px}}.file-upload__icon{width:14px;height:14px;fill:#202020}@media screen and (max-width:520px){.file-upload__icon{width:10px;height:10px}}.file-upload__btn{background:0 0;outline:0;margin-right:23px;border:0;padding:0}@media screen and (max-width:520px){.file-upload__btn{margin-right:10px}}.file-upload__label{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:11px 22px;border-radius:74px;border:1px solid #99a2ad}@media screen and (max-width:520px){.file-upload__label{font-size:10px;padding:8px 10px 8px 10px}}.section-nav{background:#f8f8f8;padding:25px 0 30px 0}@media screen and (max-width:991px){.section-nav{padding:20px 0 25px 0}}@media screen and (max-width:520px){.section-nav{padding:15px 0}}.section-nav__title{font:32px Manrope-SemiBold,sans-serif;padding-bottom:4px}@media screen and (max-width:991px){.section-nav__title{font-size:28px}}@media screen and (max-width:768px){.section-nav__title{font-size:20px}}@media screen and (max-width:520px){.section-nav__title{font-size:18px}}.section-back{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;color:#848a90}.section-back__icon{width:11px;height:11px;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);fill:#848a90}@media screen and (max-width:520px){.section-back__icon{width:8px;height:8px}}.section-back__text{display:block;padding-left:10px}@media screen and (max-width:768px){.section-back__text{font-size:14px;padding-left:6px}}@media screen and (max-width:520px){.section-back__text{font-size:12px}}.view-ask{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:-webkit-max-content;width:-moz-max-content;width:max-content;border:1px solid #7ac834;color:#7ac834;padding:7px 7px 7px 20px}@media screen and (max-width:520px){.view-ask{padding:5px 5px 5px 15px}}.view-ask__text{display:block;padding-right:18px}@media screen and (max-width:520px){.view-ask__text{font-size:10px;padding-right:10px}}.view-ask__count{background:#7ac834;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:29px;height:29px;border-radius:50%}@media screen and (max-width:520px){.view-ask__count{width:24px;height:24px}}.view-ask__num{display:block;color:#fff}@media screen and (max-width:520px){.view-ask__num{font-size:10px}}.notify-nav__link{width:42px;height:42px;padding:10px}@media screen and (max-width:520px){.notify-nav__link{width:36px;height:36px}}.notify-nav__icon{width:22px;height:22px}.comments{border-top:1px solid #eee;padding-bottom:38px}.comments-prev{padding:30px 0 35px 0}.comments-prev.new-prev:not(:last-child){border-bottom:0}.comments-prev__main{padding-top:3px}.comments-ask{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start}.comments-ask__content{padding-left:23px;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}@media screen and (max-width:520px){.comments-ask__content{padding-left:10px}}.comments-ask__textarea{background:#f7f7f7;display:block;height:90px;border:1px solid #eee;border-radius:2px;width:100%;padding:18px 25px;font-size:14px;color:#525252;outline:0}@media screen and (max-width:520px){.comments-ask__textarea{padding:15px;font-size:12px}}.comments-ask__textarea::-webkit-input-placeholder{font-size:14px;color:#525252}.comments-ask__textarea::-moz-placeholder{font-size:14px;color:#525252}.comments-ask__textarea:-ms-input-placeholder{font-size:14px;color:#525252}.comments-ask__textarea::-ms-input-placeholder{font-size:14px;color:#525252}@media screen and (max-width:520px){.comments-ask__textarea::-webkit-input-placeholder{font-size:12px}.comments-ask__textarea::-moz-placeholder{font-size:12px}.comments-ask__textarea:-ms-input-placeholder{font-size:12px}.comments-ask__textarea::-ms-input-placeholder{font-size:12px}}.warn-link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-left:13px}.warn-link__icon{width:16px;height:16px;fill:#99a2ad}.rating-area:not(:checked)>input{display:none}.header{padding:8px 0;border-bottom:1px solid #eee}@media screen and (max-width:768px){.header__question-link{display:none}}.header .container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}@media screen and (max-width:768px){.header .container{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}}@media screen and (max-width:768px){.header__user{display:none}}.question-user{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;text-decoration:none;color:#202020}.question-user__info{padding-left:16px}.question-user__name{font-family:Manrope-SemiBold,sans-serif;display:block;line-height:1;padding-bottom:4px}@media screen and (max-width:520px){.question-user__name{font-size:14px;padding-bottom:1px}}.question-logo__circle{background:#92e5e7;position:relative;width:40px;height:40px;border-radius:50%}@media screen and (max-width:520px){.question-logo__circle{width:30px;height:30px}}.question-logo__circle--gray{background:#f2f2f2;background:0 0}.question-logo__circle--green{background:#ade792}.question-logo__circle--orange{background:#ebc951}.question-logo__pic{position:absolute;top:0;right:-5px;width:38px}.question-media{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:20px}.question-media__icon{width:16px;height:16px;fill:#99a2ad}.question-media__text{font-family:Manrope-Medium,sans-serif;color:#99a2ad;padding-left:10px}@media screen and (max-width:520px){.question-media__text{font-size:14px}}.question-media__start{display:inline-block;min-width:128px;text-align:center;padding:11px}@media screen and (max-width:1240px){.question-media__start{padding:8px 6px;min-width:100px}}@media screen and (max-width:520px){.question-media__start{padding:6px}}.question-media__list{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.question-media__num{font-family:Manrope-Medium,sans-serif;padding-left:10px;color:#99a2ad}@media screen and (max-width:520px){.question-media__num{font-size:14px}}.question-media__num--current{padding-left:0;color:#7ac834}.question-media__time{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.question-new{padding-top:10px}@media screen and (max-width:520px){.question-new{padding-top:0}}.question-new__header{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:25px 38px;border-top:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #eee}@media screen and (max-width:991px){.question-new__header{padding:20px 30px}}@media screen and (max-width:520px){.question-new__header{padding:15px}}.question-post{margin-bottom:54px;border:1px solid #eee;border-radius:2px;padding:30px 38px 0 38px}@media screen and (max-width:991px){.question-post{padding:20px 20px 0 20px}}@media screen and (max-width:520px){.question-post{padding:20px 10px 0 10px;margin-bottom:30px}}.question-post__header{padding-bottom:35px}.question-post__media{padding-top:4px;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}.question-post__desc{font-size:14px;color:#525252}.question-post__img{background:#f3f3f3;width:100%;height:429px;margin-top:20px}@media screen and (max-width:768px){.question-post__img{height:300px}}@media screen and (max-width:520px){.question-post__img{height:200px}}.question-post__footer{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:27px 0}.question-post__circle{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:46px;height:46px}@media screen and (max-width:520px){.question-post__circle{width:37px;height:37px}}.question-post__stats{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.question-post__points-icon{width:23px;height:23px;margin-right:6px}@media screen and (max-width:520px){.question-post__points-icon{width:16px;height:16px}}.question-post__name{display:block;text-decoration:none;color:#202020;font-size:20px}@media screen and (max-width:768px){.question-post__name{font-size:18px}}@media screen and (max-width:520px){.question-post__name{font-size:16px}}.question-post__line{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.question-post__time:not(:last-child){margin-right:36px}@media screen and (max-width:768px){.question-post__time:not(:last-child){margin-right:15px}}@media screen and (max-width:520px){.question-post__time:not(:last-child){margin-right:10px}}@media screen and (max-width:520px){.question-post__time-icon{width:10px;height:10px}}@media screen and (max-width:520px){.question-post__time-text{font-size:12px}}.question-post__user-info{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.new-nav{padding-bottom:22px}.new-nav__list{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.new-nav__item{position:relative;padding-bottom:10px}.new-nav__arrow{width:11px;height:11px;margin-left:11px}@media screen and (max-width:520px){.new-nav__arrow{margin-left:5px;width:8px;height:8px}}.new-nav__btn{background:0 0;position:relative;z-index:2;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;border:1px solid #99a2ad;color:#202020;padding:11px 18px 11px 25px;outline:0}@media screen and (max-width:520px){.new-nav__btn{font-size:10px;padding:8px 10px 8px 10px}}.user-card{background:#f5f8fa;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;color:#202020;border-radius:2px;padding:30px}@media screen and (max-width:768px){.user-card{border-bottom:1px solid #eee;padding:15px 30px 15px 15px;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start}}@media screen and (max-width:860px){.user-card--mobile{display:none}}.user-card__progress{position:absolute;top:0;left:0}.user-card__img{position:relative;width:86px;height:86px;border-radius:50%;padding:7px;border:2px solid #e9e9e9}@media screen and (max-width:768px){.user-card__img{width:50px;height:50px;border:0;padding:0}}.user-card__pic{display:block;width:100%;height:100%;border-radius:50%}.user-card__info{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;padding-left:23px}.user-card__name{font:20px/1.2 Manrope-SemiBold,sans-serif;display:block;padding-bottom:3px}@media screen and (max-width:768px){.user-card__name{font-size:16px}}.user-card__rang{display:block;font-size:14px;color:#787878;padding-bottom:7px}@media screen and (max-width:768px){.user-card__rang{font-size:12px}}.user-card__progress{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.user-card__progress-circle{stroke-width:2;stroke:#7ac834;fill:none;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);stroke-dasharray:364.425,364.425;stroke-dashoffset:183.635}.subscribe{background:-webkit-gradient(linear,left top,left bottom,from(#1781e3),to(#005aad));background:-o-linear-gradient(top,#1781e3 0,#005aad 100%);background:linear-gradient(180deg,#1781e3 0,#005aad 100%);border-radius:2px;color:#fff;padding:30px 45px 50px 34px;margin-top:32px}@media screen and (max-width:860px){.subscribe{padding:20px 30px 30px 20px}}@media screen and (max-width:860px){.subscribe__header{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}}.subscribe__logo{width:87px}@media screen and (max-width:860px){.subscribe__logo{width:70px}}@media screen and (max-width:520px){.subscribe__logo{width:50px}}.subscribe__title{font:28px/38px Manrope-ExtraBold,sans-serif;padding-top:15px}@media screen and (max-width:1340px){.subscribe__title{font-size:22px}}@media screen and (max-width:860px){.subscribe__title{font-size:18px;padding-top:0;padding-left:15px}}@media screen and (max-width:520px){.subscribe__title{font-size:16px;line-height:1.3}}.subscribe__desc{font-size:14px;padding-top:14px;line-height:19px;padding-bottom:33px}@media screen and (max-width:520px){.subscribe__desc{padding-bottom:15px;font-size:12px}}.subscribe__btn{font:12px Manrope-Bold,sans-serif;background:#7ac834;display:inline-block;text-decoration:none;color:#fff;text-transform:uppercase;border-radius:74px;padding:14px 26px}@media screen and (max-width:520px){.subscribe__btn{padding:10px 20px;font-size:10px}}.challanges{border:1px solid #eee;border-radius:2px;margin-top:32px}.challanges__title{font:20px Manrope-SemiBold,sans-serif;position:relative;padding-left:35px;margin:0 0 4px 0}@media screen and (max-width:520px){.challanges__title{font-size:18px}}.challanges__title::before{background:url(../../images/content/mountains.svg);position:absolute;content:'';width:20px;height:20px;left:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.challanges__points{font:14px Manrope-SemiBold,sans-serif;background:url(../../images/content/points-small.svg) no-repeat left center/14px 14px;color:#7ac834;padding-left:19px;margin-left:20px}@media screen and (max-width:520px){.challanges__points{font-size:12px}}.challanges__main{padding:35px 28px 0 28px}@media screen and (max-width:520px){.challanges__main{padding:20px 15px 0 15px}}.challanges-item{padding:20px 0}.challanges-item:not(:last-child){border-bottom:1px solid #eee}.challanges-item__main{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.challanges-item__list{min-width:63px}.challanges-item__desc{padding-left:21px;font-size:14px;color:#525252;line-height:21px}@media screen and (max-width:520px){.challanges-item__desc{font-size:12px;line-height:18px;padding-left:15px}}.challanges-item__text{font-size:14px}.challanges-item__start{padding:8px 10px;min-width:100px;font-size:10px}@media screen and (max-width:1340px){.challanges-item__start{min-width:80px}}.assistants-item__avatar{display:block;width:100%;height:100%;border-radius:50%}.answer{border-radius:2px;margin-bottom:54px}@media screen and (max-width:520px){.answer{margin-bottom:30px}}.answer-new__header{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.popup{background:#fff;position:relative;max-width:870px;margin:0 auto;border-radius:2px}.popup__close{background:rgba(129,140,153,.12);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;right:30px;top:20px;width:24px;height:24px;border-radius:50%;outline:0;border:0}@media screen and (max-width:680px){.popup__close{right:15px;top:15px}}.popup__close-icon{width:10px;height:10px;fill:#818c99}.popup__header{padding:34px 40px 34px 38px;border-bottom:1px solid #eee}@media screen and (max-width:768px){.popup__header{padding:25px 40px 25px 30px}}@media screen and (max-width:520px){.popup__header{padding:15px 40px 15px 15px}}.popup__points{padding-left:52px;padding-bottom:10px}@media screen and (max-width:680px){.popup__points{padding-left:0;width:100%}}.popup__points-icon{margin-right:6px}.popup__title{font-weight:700;font-size:28px;line-height:20px}@media screen and (max-width:860px){.popup__title{font-size:22px;line-height:1.3}}@media screen and (max-width:768px){.popup__title{font-size:20px}}@media screen and (max-width:680px){.popup__title{font-size:18px}}@media screen and (max-width:520px){.popup__title{font-size:16px}}.popup__content{padding:34px 28px 50px 28px}@media screen and (max-width:520px){.popup__content{padding:15px 15px 30px 15px}}.popup-form__textarea{width:100%;height:210px;background:#f7f7f7;border:1px solid #eee;border-radius:2px;padding:18px 25px;outline:0;font-size:14px;color:#525252}@media screen and (max-width:520px){.popup-form__textarea{height:140px;padding:15px;font-size:12px}}.popup-form__textarea::-webkit-input-placeholder{font-size:14px;color:#525252}.popup-form__textarea::-moz-placeholder{font-size:14px;color:#525252}.popup-form__textarea:-ms-input-placeholder{font-size:14px;color:#525252}.popup-form__textarea::-ms-input-placeholder{font-size:14px;color:#525252}@media screen and (max-width:520px){.popup-form__textarea::-webkit-input-placeholder{font-size:12px}.popup-form__textarea::-moz-placeholder{font-size:12px}.popup-form__textarea:-ms-input-placeholder{font-size:12px}.popup-form__textarea::-ms-input-placeholder{font-size:12px}}@media screen and (max-width:520px){.popup-form__btn{font-size:8px}}.popup-form__options{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:34px 0 24px 0}@media screen and (max-width:768px){.popup-form__options{padding:20px 0}}@media screen and (max-width:520px){.popup-form__options{padding:15px 0}}.popup-form__send{outline:0}@media screen and (max-width:520px){.popup-form__send{font-size:10px}}.popup-form__new{padding-bottom:0}</style>
+    <link rel="stylesheet" href="css/styles.min.css" media="print" onload="this.media='all'">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="container">
+            <div class="sandwich"><a class="sandwich__open-btn" href="#"><span class="sandwich__line"></span><span class="sandwich__line"></span><span class="sandwich__line"></span></a>
+              <div class="sandwich__content">
+                <button class="sandwich__close-btn" type="button">
+                  <svg class="svg-icon icon-close sandwich__close-icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                  </svg>
+                </button>
+                <div class="sandwich__header"><a class="logo sandwich__logo" href="#"><img class="logo__img" src="images/general/logo.svg" alt="Логотип"></a></div><a class="user-card" href="#">
+                  <div class="user-card__img"><span class="user-prev user-card__pic" style="background-image: url('images/content/user-prev.png');"></span></div>
+                  <div class="user-card__info"><span class="user-card__name">Лёва</span><span class="user-card__rang">Середнячок</span>
+                    <div class="user-card__points points-user sandwich-points">
+                      <svg class="svg-icon icon-points-user points-user__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                      </svg>
+                      <p class="points-user__num sandwich-points__num"><span class="points-user__num points-user__num--current">40</span>/250</p>
+                    </div>
+                  </div></a>
+                <nav class="sandwich-nav">
+                  <ul class="sandwich-nav__list">
+                    <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#">Профиль</a></li>
+                    <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#">Настройки</a></li>
+                    <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#">Помощь</a></li>
+                    <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#">Выход</a></li>
+                  </ul>
+                </nav>
+                <div class="sandwich__footer"><a class="btn question-link js-popup-link sandwich__question-link" href="#popup-question">Задать вопрос  </a></div>
+              </div>
+            </div><a class="logo" href="#"><img class="logo__img" src="images/general/logo.svg" alt="Логотип"></a>
+            <div class="search-prev">
+              <input class="search-prev__field" type="text" placeholder="Найди ответы на свои вопросы">
+              <button class="search-prev__submit" type="submit">
+                <svg class="svg-icon icon-search search-prev__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#search"></use>
+                </svg>
+              </button>
+            </div>
+            <nav class="user-nav">
+              <ul class="user-nav__list">
+                <li class="user-nav__item"><a class="user-nav__link" href="#">
+                    <svg class="svg-icon icon-message user-nav__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#message"></use>
+                    </svg></a></li>
+                <li class="user-nav__item"><a class="user-nav__link" href="#">
+                    <svg class="svg-icon icon-notify user-nav__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#notify"></use>
+                    </svg></a>
+                  <div class="user-dropdown user-dropdown--width">
+                    <div class="user-dropdown__header"><span class="user-dropdown__text">Нет новых уведомлений</span></div>
+                  </div>
+                </li>
+                <li class="user-nav__item"><a class="user-nav__link" href="#">
+                    <svg class="svg-icon icon-users user-nav__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#users"></use>
+                    </svg></a></li>
+                <li class="user-nav__item header__user"><a class="user-nav__link user-prev" href="#" style="background-image: url('images/content/user-prev.png');"></a>
+                  <div class="user-dropdown">
+                    <div class="user-dropdown__header"><a class="user-dropdown__name" href="#">Лёва</a></div>
+                    <div class="user-dropdown__menu"><a class="user-dropdown__link" href="#">Профиль</a><a class="user-dropdown__link" href="#">Настройки</a><a class="user-dropdown__link" href="#">Помощь</a></div>
+                    <div class="user-dropdown__footer"><a class="user-dropdown__link" href="#">Выход</a></div>
+                  </div>
+                </li>
+              </ul>
+            </nav><a class="btn question-link js-popup-link header__question-link" href="#popup-question">Задать вопрос</a>
+          </div>
+        </header>
+        <div class="section-nav">
+          <div class="container">
+            <h2 class="section-nav__title">Вопрос #43</h2><a class="section-back" href="#">
+              <svg class="svg-icon icon-down-arrow section-back__icon">
+                <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+              </svg><span class="section-back__text">Назад</span></a>
+          </div>
+        </div>
+        <main class="main">
+          <div class="main__content">
+            <div class="container">
+              <div class="main-side main-side--paddleft">
+                <div class="question-post">
+                  <div class="question-post__header">
+                    <div class="question-user question-post__user"><a class="question-logo" href="#">
+                        <div class="question-logo__circle question-logo__circle--gray question-post__circle">
+                          <svg class="svg-icon icon-user new-prev__circle-icon new-prev__circle-icon--user">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                          </svg>
+                        </div></a>
+                      <div class="question-user__info question-post__user-info">
+                        <div class="question-post__line"><a class="question-user__name question-post__name" href="#">nfyzn</a>
+                          <div class="question-post__stats">
+                            <div class="points-user question-post__points">
+                              <svg class="svg-icon icon-points-user points-user__icon question-post__points-icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                              </svg>
+                              <p class="points-user__num"><span class="points-user__num points-user__num--current">+14</span></p>
+                            </div>
+                            <div class="new-note new-note--blue question-post__note">
+                              <svg class="svg-icon icon-check new-note__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                              </svg><span class="new-note__text">Ответ дан</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="question-post__info">
+                          <div class="question-media question-post__media">
+                            <div class="question-media__time question-post__time">
+                              <svg class="svg-icon icon-time question-media__icon question-post__time-icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#time"></use>
+                              </svg>
+                              <p class="question-media__text question-post__time-text">13 часов назад</p>
+                            </div>
+                            <div class="question-media__time question-post__time">
+                              <svg class="svg-icon icon-list question-media__icon question-post__time-icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                              </svg>
+                              <p class="question-media__text question-post__time-text">Геометрия</p>
+                            </div>
+                            <div class="question-media__time question-post__time">
+                              <svg class="svg-icon icon-user question-media__icon question-post__time-icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                              </svg>
+                              <p class="question-media__text question-post__time-text">Студенческий</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question-post__content">
+                    <p class="question-post__desc">А2! Только А. Очень срочно!</p>
+                    <div class="question-post__img"></div>
+                  </div>
+                  <div class="question-post__footer"><a class="btn view-ask" href="#"><span class="view-ask__text">Смотреть ответы</span>
+                      <div class="view-ask__count"><span class="view-ask__num">1</span></div></a>
+                    <nav class="user-nav notify-nav">
+                      <ul class="user-nav__list notify-nav__list">
+                        <li class="user-nav__item notify-nav__item"><a class="user-nav__link notify-nav__link" href="#">
+                            <svg class="svg-icon icon-notify user-nav__icon notify-nav__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#notify"></use>
+                            </svg></a></li>
+                        <li class="user-nav__item notify-nav__item"><a class="user-nav__link notify-nav__link" href="#">
+                            <svg class="svg-icon icon-warn user-nav__icon notify-nav__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#warn"></use>
+                            </svg></a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="comments">
+                    <div class="new-prev comments-prev"><a class="question-user" href="#">
+                        <div class="question-logo">
+                          <div class="question-logo__circle"><span class="user-prev assistants-item__avatar" style="background-image: url('images/content/user-prev.png');"></span></div>
+                        </div></a>
+                      <div class="new-prev__content">
+                        <div class="new-prev__header"><a class="new-prev__name comments-prev__name" href="#">Лёва</a><span class="new-prev__time">20 минут назад</span><a class="warn-link" href="#">
+                            <svg class="svg-icon icon-warn warn-link__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#warn"></use>
+                            </svg></a></div><a class="new-prev__main comments-prev__main" href="#">
+                          <p class="new-prev__desc">Ничего не видно на фотографии!</p></a>
+                      </div>
+                    </div>
+                    <div class="comments-ask">
+                      <div class="question-logo">
+                        <div class="question-logo__circle question-logo__circle--gray new-prev__circle">
+                          <svg class="svg-icon icon-user new-prev__circle-icon new-prev__circle-icon--user">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="comments-ask__content">
+                        <textarea class="comments-ask__textarea" placeholder="Задайте свой вопрос по задаче"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="answer">
+                  <div class="question-new answer-new">
+                    <div class="question-new__header answer-new__header">
+                      <div class="answer-new__block">
+                        <div class="question-new__num"> 
+                          <svg class="svg-icon icon-check question-new__check">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                          </svg>
+                        </div><span class="question-new__title"><span class="answer__title-expert">Ответ проверен экспертом</span>
+                          <div class="whatis-link">
+                            <svg class="svg-icon icon-whatis whatis-link__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#whatis"></use>
+                            </svg>
+                          </div></span>
+                      </div>
+                      <div class="answer__stats">
+                        <div class="new-star">
+                          <svg class="svg-icon icon-star new-star__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                          </svg><span class="new-star__num">3.7/5</span><span class="new-star__count">(3 оценки)</span>
+                        </div>
+                        <div class="new-likes">
+                          <svg class="svg-icon icon-like new-likes__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#like"></use>
+                          </svg><span class="new-likes__num">4</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="answer__content">
+                    <div class="new-prev comments-prev answer-prev"><a class="question-user" href="#">
+                        <div class="question-logo">
+                          <div class="question-logo__circle"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                        </div></a>
+                      <div class="new-prev__content">
+                        <div class="new-prev__header"><a class="new-prev__name comments-prev__name answer-prev__name" href="#">ДашаКОТ</a><span class="new-prev__time">10 дней назад</span>
+                          <div class="points-user question-post__points answer-points">
+                            <svg class="svg-icon icon-points-user points-user__icon question-post__points-icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                            </svg>
+                            <p class="points-user__num"><span class="points-user__num points-user__num--current">1200</span></p>
+                          </div>
+                        </div><span class="answer-prev__status">Светило науки - 74 ответа - 1.2к помощей  </span>
+                        <p class="answer-prev__desc">Значимая часть слова, которая выражает грамматическое значение - окончание!   <br><br>1) Падеж:  <br><br>2) Род;  <br><br>3) Лицо; <br><br>4) Число;</p>
+                      </div>
+                      <div class="answer__footer">
+                        <div class="answer__footer-block">
+                          <button class="btn answer__like-btn" type="button">
+                            <svg class="svg-icon icon-heart answer__like-icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#heart"></use>
+                            </svg><span class="answer__like-text">Спасибо</span>
+                          </button>
+                          <div class="rating"><span class="rating__title">Оцените пользу ответа</span>
+                            <div class="rating-area">
+                              <input id="star-10" type="radio" name="rating2" value="5">
+                              <label for="star-10" title="Оценка «5»"></label>
+                              <input id="star-9" type="radio" name="rating2" value="4">
+                              <label for="star-9" title="Оценка «4»"></label>
+                              <input id="star-8" type="radio" name="rating2" value="3">
+                              <label for="star-8" title="Оценка «3»"></label>
+                              <input id="star-7" type="radio" name="rating2" value="2">
+                              <label for="star-7" title="Оценка «2»"></label>
+                              <input id="star-6" type="radio" name="rating2" value="1">
+                              <label for="star-6" title="Оценка «1»"></label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="useful">
+                          <div class="useful__list"><a class="useful__item useful__item--1" href="#"></a><a class="useful__item useful__item--2" href="#"></a><a class="useful__item useful__item--3" href="#"></a></div>
+                          <p class="useful__title"><a href="#" class="useful__link">Darmaidayxx</a> и 3 других посчитали ответ полезным!</p>
+                        </div>
+                        <div class="answer-notify"><a class="answer-notify__item" href="#">
+                            <svg class="svg-icon icon-chat answer-notify__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#chat"></use>
+                            </svg><span class="answer-notify__num">1</span></a><a class="answer-notify__item" href="#">
+                            <svg class="svg-icon icon-warn answer-notify__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#warn"></use>
+                            </svg></a></div>
+                      </div>
+                    </div>
+                    <div class="comments-ask answer-ask answer-ask--expert">
+                      <div class="new-prev answer__new-prev"><a class="question-logo" href="#">
+                          <div class="question-logo__circle question-logo__circle--gray new-prev__circle">
+                            <svg class="svg-icon icon-user new-prev__circle-icon new-prev__circle-icon--user">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                            </svg>
+                          </div></a>
+                        <div class="new-prev__content">
+                          <div class="new-prev__header"><a class="new-prev__name answer-ask__name" href="#"><span class="new-prev__name-text">Пользователь</span>
+                              <div class="whatis-link answer-ask__whatis">
+                                <svg class="svg-icon icon-warn whatis-link__icon">
+                                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#warn"></use>
+                                </svg>
+                              </div></a></div><a class="new-prev__main" href="#">
+                            <p class="new-prev__desc">Комментарий удален</p></a>
+                        </div>
+                      </div>
+                      <div class="answer__comment">
+                        <p class="answer__comment-title"><a href="#" class="answer__comment-link">Авторизуйтесь</a> чтобы оставлять комментарии</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="answer">
+                  <div class="question-new answer-new">
+                    <div class="question-new__header answer-new__header">
+                      <div class="answer-new__block"><span class="question-new__title">Другие ответы</span>
+                        <div class="question-new__num"> <span class="question-new__num-text">1</span></div>
+                      </div>
+                      <div class="answer__stats">
+                        <div class="new-star">
+                          <svg class="svg-icon icon-star new-star__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                          </svg><span class="new-star__num">5.0/5</span><span class="new-star__count">(3 оценки)</span>
+                        </div>
+                        <div class="new-likes">
+                          <svg class="svg-icon icon-like new-likes__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#like"></use>
+                          </svg><span class="new-likes__num">1</span>
+                        </div>
+                        <div class="new-trophy"><img class="new-trophy__img" src="images/content/trophy.svg" alt="" width="14" height="14"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="answer__content">
+                    <div class="new-prev comments-prev answer-prev"><a class="question-user" href="#">
+                        <div class="question-logo">
+                          <div class="question-logo__circle"><span class="user-prev assistants-item__avatar" style="background-image: url('images/content/user-prev.png');"></span></div>
+                        </div></a>
+                      <div class="new-prev__content">
+                        <div class="new-prev__header"><a class="new-prev__name comments-prev__name answer-prev__name" href="#">rafaello</a><span class="new-prev__time">20 минут назад</span>
+                          <div class="points-user question-post__points answer-points">
+                            <svg class="svg-icon icon-points-user points-user__icon question-post__points-icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                            </svg>
+                            <p class="points-user__num"><span class="points-user__num points-user__num--current">1200</span></p>
+                          </div>
+                        </div><span class="answer-prev__status">Отличник - 74 ответа - 1.2к помощей</span>
+                        <p class="answer-prev__desc">a=8, b=15, c=17 r=(ab)/(a+b+c)/2=3</p>
+                      </div>
+                      <div class="answer__footer">
+                        <div class="answer__footer-block">
+                          <button class="btn answer__like-btn" type="button">
+                            <svg class="svg-icon icon-heart answer__like-icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#heart"></use>
+                            </svg><span class="answer__like-text">Спасибо</span>
+                          </button>
+                          <div class="rating"><span class="rating__title">Оцените пользу ответа</span>
+                            <div class="rating-area">
+                              <input id="star-5" type="radio" name="rating" value="5">
+                              <label for="star-5" title="Оценка «5»"></label>
+                              <input id="star-4" type="radio" name="rating" value="4">
+                              <label for="star-4" title="Оценка «4»"></label>
+                              <input id="star-3" type="radio" name="rating" value="3">
+                              <label for="star-3" title="Оценка «3»"></label>
+                              <input id="star-2" type="radio" name="rating" value="2">
+                              <label for="star-2" title="Оценка «2»"></label>
+                              <input id="star-1" type="radio" name="rating" value="1">
+                              <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="useful">
+                          <div class="useful__list"><a class="useful__item useful__item--1" href="#"></a><a class="useful__item useful__item--2" href="#"></a><a class="useful__item useful__item--3" href="#"></a></div>
+                          <p class="useful__title"><a href="#" class="useful__link">Darmaidayxx</a> и 3 других посчитали ответ полезным!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="comments-ask answer-ask">
+                      <div class="question-logo">
+                        <div class="question-logo__circle question-logo__circle--gray new-prev__circle">
+                          <svg class="svg-icon icon-user new-prev__circle-icon new-prev__circle-icon--user">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="comments-ask__content">
+                        <textarea class="comments-ask__textarea" placeholder="Прокомментируйте ответ"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-prev">
+                  <div class="question-prev__content"><a class="question-user" href="#">
+                      <div class="question-logo">
+                        <div class="question-logo__circle"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                      </div>
+                      <div class="question-user__info"><span class="question-user__name">Мозг</span><span class="question-user__rang">Отвечающий</span></div></a>
+                    <h1 class="question-prev__title">Остались вопросы?</h1>
+                    <div class="question-prev__footer"><a class="btn question-link js-popup-link" href="#popup-question">Задать вопрос</a><a class="btn question-link question-search" href="#">
+                        <svg class="svg-icon icon-search question-search__icon">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#search"></use>
+                        </svg><span class="question-search__text">Найди нужный ответ</span></a></div>
+                  </div>
+                </div>
+                <div class="question-new">
+                  <div class="question-new__header"><span class="question-new__title">Новые вопросы в теме Геометрия</span>
+                    <div class="question-new__num"> <span class="question-new__num-text">5</span></div>
+                  </div>
+                  <div class="question-new__content">
+                    <div class="question-new__questions">
+                      <div class="new-prev"><a class="question-logo" href="#">
+                          <div class="question-logo__circle new-prev__circle">
+                            <svg class="svg-icon icon-math new-prev__circle-icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#math"></use>
+                            </svg>
+                          </div></a>
+                        <div class="new-prev__content">
+                          <div class="new-prev__header"><a class="new-prev__name" href="#">Геометрия</a><span class="new-prev__time">50 минут назад</span>
+                            <div class="points-user new-prev__points">
+                              <svg class="svg-icon icon-points-user points-user__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                              </svg>
+                              <p class="points-user__num"><span class="points-user__num points-user__num--current">+25</span></p>
+                            </div>
+                          </div><a class="new-prev__main" href="#">
+                            <p class="new-prev__desc">Задание 2: Нарисуйте углы данным углам 2) mon= <br>Критерии оценивания: Пример свойства верткальных углов <br>Дескрипторы:  Правильно рисует вертикальный угол..</p>
+                            <div class="new-prev__attach attach-prev">
+                              <svg class="svg-icon icon-attach attach-prev__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#attach"></use>
+                              </svg><span class="attach-prev__text">2 вложения</span>
+                            </div></a>
+                          <div class="new-prev__footer">
+                            <div class="question-media question-new__media">
+                              <div class="question-media__list">
+                                <svg class="svg-icon icon-list question-media__icon">
+                                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                                </svg>
+                                <p class="question-media__num question-new__text">110</p>
+                              </div><span class="new-prev__line"></span>
+                              <div class="question-media question-new__media">
+                                <div class="question-media__list">
+                                  <svg class="svg-icon icon-watch question-media__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#watch"></use>
+                                  </svg>
+                                  <p class="question-media__num question-new__text">360</p>
+                                </div>
+                              </div>
+                            </div><a class="btn new-prev__ask" href="#">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="new-prev"><a class="question-logo" href="#">
+                          <div class="question-logo__circle new-prev__circle new-prev__circle--colb"><img class="new-prev__circle-icon new-prev__circle-icon--colb" src="images/content/colb.svg" alt=""></div></a>
+                        <div class="new-prev__content">
+                          <div class="new-prev__header"><a class="new-prev__name" href="#">Химия</a><span class="new-prev__time">3 минуты назад</span>
+                            <div class="points-user new-prev__points">
+                              <svg class="svg-icon icon-points-user points-user__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                              </svg>
+                              <p class="points-user__num"><span class="points-user__num points-user__num--current">+13</span></p>
+                            </div>
+                          </div><a class="new-prev__main" href="#">
+                            <p class="new-prev__desc">Помогите пожалуйста с 10 и 22</p>
+                            <div class="new-prev__attach attach-prev">
+                              <svg class="svg-icon icon-attach attach-prev__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#attach"></use>
+                              </svg><span class="attach-prev__text">1 вложениe</span>
+                            </div></a>
+                          <div class="new-prev__footer">
+                            <div class="question-media question-new__media">
+                              <div class="question-media__list">
+                                <svg class="svg-icon icon-list question-media__icon">
+                                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                                </svg>
+                                <p class="question-media__num question-new__text">110</p>
+                              </div><span class="new-prev__line"></span>
+                              <div class="question-media question-new__media">
+                                <div class="question-media__list">
+                                  <svg class="svg-icon icon-watch question-media__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#watch"></use>
+                                  </svg>
+                                  <p class="question-media__num question-new__text">360</p>
+                                </div>
+                              </div>
+                            </div><a class="btn new-prev__ask" href="#">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="new-prev"><a class="question-logo" href="#">
+                          <div class="question-logo__circle question-logo__circle--gray new-prev__circle">
+                            <svg class="svg-icon icon-user new-prev__circle-icon new-prev__circle-icon--user">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                            </svg>
+                          </div></a>
+                        <div class="new-prev__content">
+                          <div class="new-prev__header"><a class="new-prev__name" href="#">География</a><span class="new-prev__time">20 минут назад</span>
+                            <div class="new-note"><span class="new-note__text">Вопрос новичка</span></div>
+                            <div class="points-user new-prev__points">
+                              <svg class="svg-icon icon-points-user points-user__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                              </svg>
+                              <p class="points-user__num"><span class="points-user__num points-user__num--current">+5</span></p>
+                            </div>
+                          </div><a class="new-prev__main" href="#">
+                            <p class="new-prev__desc">Самый большой архипелаг в мире насчитывающий более 36 000 островов</p></a>
+                          <div class="new-prev__footer">
+                            <div class="question-media question-new__media">
+                              <div class="question-media__list">
+                                <svg class="svg-icon icon-list question-media__icon">
+                                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                                </svg>
+                                <p class="question-media__num question-new__text">110</p>
+                              </div><span class="new-prev__line"></span>
+                              <div class="question-media question-new__media">
+                                <div class="question-media__list">
+                                  <svg class="svg-icon icon-watch question-media__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#watch"></use>
+                                  </svg>
+                                  <p class="question-media__num question-new__text">360</p>
+                                </div>
+                              </div>
+                            </div><a class="btn new-prev__ask" href="#">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="new-prev"><a class="question-logo" href="#">
+                          <div class="question-logo__circle new-prev__circle">
+                            <svg class="svg-icon icon-math new-prev__circle-icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#math"></use>
+                            </svg>
+                          </div></a>
+                        <div class="new-prev__content">
+                          <div class="new-prev__header"><a class="new-prev__name" href="#">Математика</a><span class="new-prev__time">50 минут назад</span>
+                            <div class="points-user new-prev__points">
+                              <svg class="svg-icon icon-points-user points-user__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                              </svg>
+                              <p class="points-user__num"><span class="points-user__num points-user__num--current">+25</span></p>
+                            </div>
+                          </div><a class="new-prev__main" href="#">
+                            <p class="new-prev__desc">1+1 помогите пожалуйста</p>
+                            <div class="new-prev__attach attach-prev">
+                              <svg class="svg-icon icon-attach attach-prev__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#attach"></use>
+                              </svg><span class="attach-prev__text">2 вложения</span>
+                            </div></a>
+                          <div class="new-prev__footer">
+                            <div class="question-media question-new__media">
+                              <div class="question-media__list">
+                                <svg class="svg-icon icon-list question-media__icon">
+                                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                                </svg>
+                                <p class="question-media__num question-new__text">110</p>
+                              </div><span class="new-prev__line"></span>
+                              <div class="question-media question-new__media">
+                                <div class="question-media__list">
+                                  <svg class="svg-icon icon-watch question-media__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#watch"></use>
+                                  </svg>
+                                  <p class="question-media__num question-new__text">360</p>
+                                </div>
+                              </div>
+                            </div><a class="btn new-prev__ask" href="#">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="new-prev"><a class="question-logo" href="#">
+                          <div class="question-logo__circle new-prev__circle new-prev__circle--colb"><img class="new-prev__circle-icon new-prev__circle-icon--colb" src="images/content/colb.svg" alt=""></div></a>
+                        <div class="new-prev__content">
+                          <div class="new-prev__header"><a class="new-prev__name" href="#">Химия</a><span class="new-prev__time">3 минуты назад</span>
+                            <div class="points-user new-prev__points">
+                              <svg class="svg-icon icon-points-user points-user__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                              </svg>
+                              <p class="points-user__num"><span class="points-user__num points-user__num--current">+13</span></p>
+                            </div>
+                          </div><a class="new-prev__main" href="#">
+                            <p class="new-prev__desc">Помогите пожалуйста с 10 и 22</p>
+                            <div class="new-prev__attach attach-prev">
+                              <svg class="svg-icon icon-attach attach-prev__icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#attach"></use>
+                              </svg><span class="attach-prev__text">1 вложениe</span>
+                            </div></a>
+                          <div class="new-prev__footer">
+                            <div class="question-media question-new__media">
+                              <div class="question-media__list">
+                                <svg class="svg-icon icon-list question-media__icon">
+                                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                                </svg>
+                                <p class="question-media__num question-new__text">110</p>
+                              </div><span class="new-prev__line"></span>
+                              <div class="question-media question-new__media">
+                                <div class="question-media__list">
+                                  <svg class="svg-icon icon-watch question-media__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#watch"></use>
+                                  </svg>
+                                  <p class="question-media__num question-new__text">360</p>
+                                </div>
+                              </div>
+                            </div><a class="btn new-prev__ask" href="#">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="show-more" type="button"><span class="show-more__text">Показать больше</span>
+                      <svg class="svg-icon icon-down-arrow show-more__arrow">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <aside class="aside-right"><a class="user-card user-card--mobile" href="#">
+                  <div class="user-card__img">
+                    <svg class="user-card__progress" width="90" height="90">
+                      <circle class="user-card__progress-circle" cx="45" cy="45" r="42"></circle>
+                    </svg><span class="user-prev user-card__pic" style="background-image: url('images/content/user-prev.png');"></span>
+                  </div>
+                  <div class="user-card__info"><span class="user-card__name">Лёва</span><span class="user-card__rang">Середнячок</span>
+                    <div class="user-card__points points-user">
+                      <svg class="svg-icon icon-points-user points-user__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                      </svg>
+                      <p class="points-user__num"><span class="points-user__num points-user__num--current">40</span>/250</p>
+                    </div>
+                  </div></a>
+                <div class="subscribe">
+                  <div class="subscribe__header">
+                    <div class="subscribe__logo"><img class="subscribe__logo-img" src="images/general/subscribe-logo.svg" alt=""></div>
+                    <h4 class="subscribe__title">Премиум доступ со Знаниями Плюс</h4>
+                  </div>
+                  <p class="subscribe__desc">Начни учиться еще быстрее с неограниченным доступом к ответам от экспертов</p><a class="subscribe__btn" href="#">Оформить подписку</a>
+                </div>
+                <div class="challanges">
+                  <div class="challanges__main">
+                    <h5 class="challanges__title">Вызовы</h5>
+                    <div class="challanges-item">
+                      <div class="challanges-item__main">
+                        <div class="question-logo">
+                          <div class="question-logo__circle"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                        </div>
+                        <div class="challanges-item__info">
+                          <p class="challanges-item__desc">Ответь на 5 вопросов из любого предмета за 48ч. <span class="challanges__points">+50</span></p>
+                        </div>
+                      </div>
+                      <div class="challanges-item__footer">
+                        <div class="question-media">
+                          <div class="question-media__list challanges-item__list">
+                            <svg class="svg-icon icon-list question-media__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                            </svg>
+                            <p class="question-media__num challanges-item__text"><span class="question-media__num question-media__num--current">1</span>/5</p>
+                          </div>
+                          <div class="question-media__time">
+                            <svg class="svg-icon icon-time question-media__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#time"></use>
+                            </svg>
+                            <p class="question-media__text challanges-item__text">2д:00ч</p>
+                          </div><a class="btn question-media__start challanges-item__start" href="#">Начать</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="challanges-item">
+                      <div class="challanges-item__main">
+                        <div class="question-logo">
+                          <div class="question-logo__circle question-logo__circle--green"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                        </div>
+                        <div class="challanges-item__info">
+                          <p class="challanges-item__desc">Ответь на 10 вопросов из любого предмета за 48ч. <span class="challanges__points">+100</span></p>
+                        </div>
+                      </div>
+                      <div class="challanges-item__footer">
+                        <div class="question-media">
+                          <div class="question-media__list challanges-item__list">
+                            <svg class="svg-icon icon-list question-media__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                            </svg>
+                            <p class="question-media__num challanges-item__text"><span class="question-media__num question-media__num--current">1</span>/5</p>
+                          </div>
+                          <div class="question-media__time">
+                            <svg class="svg-icon icon-time question-media__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#time"></use>
+                            </svg>
+                            <p class="question-media__text challanges-item__text">2д:00ч</p>
+                          </div><a class="btn question-media__start challanges-item__start" href="#">Начать</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="challanges-item">
+                      <div class="challanges-item__main">
+                        <div class="question-logo">
+                          <div class="question-logo__circle question-logo__circle--orange"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                        </div>
+                        <div class="challanges-item__info">
+                          <p class="challanges-item__desc">Ответь на 25 вопросов из любого предмета за 48ч. <span class="challanges__points">+400</span></p>
+                        </div>
+                      </div>
+                      <div class="challanges-item__footer">
+                        <div class="question-media">
+                          <div class="question-media__list challanges-item__list">
+                            <svg class="svg-icon icon-list question-media__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#list"></use>
+                            </svg>
+                            <p class="question-media__num challanges-item__text"><span class="question-media__num question-media__num--current">10</span>/25</p>
+                          </div>
+                          <div class="question-media__time">
+                            <svg class="svg-icon icon-time question-media__icon">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#time"></use>
+                            </svg>
+                            <p class="question-media__text challanges-item__text">2д:00ч</p>
+                          </div><a class="btn question-media__start challanges-item__start" href="#">Начать</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="show-more" type="button"><span class="show-more__text">Показать больше</span>
+                    <svg class="svg-icon icon-down-arrow show-more__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="assistants">
+                  <div class="assistants__main">
+                    <h5 class="assistants__title">Лучшие помощники</h5>
+                    <div class="new-nav assistants-nav">
+                      <ul class="new-nav__list">
+                        <li class="new-nav__item assistants-nav__item">
+                          <button class="btn new-nav__btn assistants-nav__btn" type="button"><span class="new-nav__text">Ежедневный</span>
+                            <svg class="svg-icon icon-down-arrow new-nav__arrow">
+                              <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="assistants__info">
+                      <div class="assistants-item"><a class="question-user" href="#">
+                          <div class="question-logo">
+                            <div class="question-logo__circle"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                          </div>
+                          <div class="question-user__info"><span class="question-user__name">Мозг</span><span class="question-user__rang">Отвечающий</span></div></a>
+                        <div class="points-user">
+                          <svg class="svg-icon icon-points-user points-user__icon assistants-item__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                          </svg>
+                          <p class="points-user__num assistants-item__num"><span class="points-user__num points-user__num--current">+500</span></p>
+                        </div>
+                      </div>
+                      <div class="assistants-item"><a class="question-user" href="#">
+                          <div class="question-logo">
+                            <div class="question-logo__circle"><span class="user-prev assistants-item__avatar" style="background-image: url('images/content/user-prev.png');"></span></div>
+                          </div>
+                          <div class="question-user__info"><span class="question-user__name">Лёва</span><span class="question-user__rang">Середнячок</span></div></a>
+                        <div class="points-user">
+                          <svg class="svg-icon icon-points-user points-user__icon assistants-item__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                          </svg>
+                          <p class="points-user__num assistants-item__num"><span class="points-user__num points-user__num--current">+200</span></p>
+                        </div>
+                      </div>
+                      <div class="assistants-item"><a class="question-user" href="#">
+                          <div class="question-logo">
+                            <div class="question-logo__circle"><img class="question-logo__pic" src="images/content/user-logo.svg" alt=""></div>
+                          </div>
+                          <div class="question-user__info"><span class="question-user__name">Мозг</span><span class="question-user__rang">Отвечающий</span></div></a>
+                        <div class="points-user">
+                          <svg class="svg-icon icon-points-user points-user__icon assistants-item__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                          </svg>
+                          <p class="points-user__num assistants-item__num"><span class="points-user__num points-user__num--current">+500</span></p>
+                        </div>
+                      </div>
+                      <div class="assistants-item"><a class="question-user" href="#">
+                          <div class="question-logo">
+                            <div class="question-logo__circle"><span class="user-prev assistants-item__avatar" style="background-image: url('images/content/user-prev.png');"></span></div>
+                          </div>
+                          <div class="question-user__info"><span class="question-user__name">Лёва</span><span class="question-user__rang">Середнячок</span></div></a>
+                        <div class="points-user">
+                          <svg class="svg-icon icon-points-user points-user__icon assistants-item__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                          </svg>
+                          <p class="points-user__num assistants-item__num"><span class="points-user__num points-user__num--current">+500</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="show-more" type="button"><span class="show-more__text">Показать больше</span>
+                    <svg class="svg-icon icon-down-arrow show-more__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="footer__top">
+            <div class="container">
+              <nav class="footer-nav footer-side">
+                <div class="footer-nav__side"><span class="footer-nav__title">Общие вопросы</span>
+                  <ul class="footer-nav__list">
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Общие вопросы</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Правила</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Как получить баллы?</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Реклама</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Политика конфиденциальности</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Responsible disclosure program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-nav__side"><span class="footer-nav__title">Общие вопросы</span>
+                  <ul class="footer-nav__list">
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Общие вопросы</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Правила</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Как получить баллы?</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Реклама</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="footer-side">
+                <div class="footer-app"><span class="footer-side__title">Установи приложение Brainly</span>
+                  <div class="footer-app__content"><a class="footer-app__item" href="#"><img class="footer-app__img" src="images/content/appstore.png" alt=""></a><a class="footer-app__item" href="#"><img class="footer-app__img" src="images/content/gpay.png" alt=""></a></div>
+                </div>
+                <div class="footer-payment"><span class="footer-side__title">Мы принимаем к оплате</span>
+                  <div class="footer-payment__content"><img class="footer-payment__img" src="images/content/visa.svg" alt="visa" width="54"><img class="footer-payment__img" src="images/content/mastercard1.svg" alt="mastercard" width="37"><img class="footer-payment__img" src="images/content/maestro.svg" alt="maestro" width="37"><img class="footer-payment__img" src="images/content/yandex-money.svg" alt="yandex-money" width="23"><img class="footer-payment__img" src="images/content/qiwi.svg" alt="qiwi" width="29"><img class="footer-payment__img" src="images/content/sberbank.svg" alt="sberbank" width="28"></div>
+                </div>
+              </div>
+              <div class="footer-side">
+                <div class="footer-social"><span class="footer-side__title">Мы в социальных сетях</span>
+                  <div class="footer-social__content"><a class="footer-social__link" href="#">
+                      <svg class="svg-icon icon-vk footer-social__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#vk"></use>
+                      </svg></a><a class="footer-social__link" href="#">
+                      <svg class="svg-icon icon-ok footer-social__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#ok"></use>
+                      </svg></a><a class="footer-social__link" href="#">
+                      <svg class="svg-icon icon-instagram footer-social__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#instagram"></use>
+                      </svg></a><a class="footer-social__link" href="#">
+                      <svg class="svg-icon icon-twitter footer-social__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#twitter"></use>
+                      </svg></a><a class="footer-social__link" href="#">
+                      <svg class="svg-icon icon-facebook footer-social__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#facebook"></use>
+                      </svg></a><a class="footer-social__link" href="#">
+                      <svg class="svg-icon icon-google footer-social__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#google"></use>
+                      </svg></a></div>
+                </div>
+              </div>
+              <div class="footer-side">
+                <div class="footer-sites">
+                  <button class="footer-sites__prev" type="button"><span class="footer-sites__text">Школьные Знания.com</span>
+                    <svg class="svg-icon icon-down-arrow footer-sites__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+                <p class="footer__cookie">Этот сайт использует cookies. <a href="#" class="footer__cookie-link">Политика Cookies</a>  Вы можете указать условия хранения и доступ к cookies в своем браузере.</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="container"><span class="footer__copyright">2018-2020 Знания+</span><a class="politic-link" href="#">Политика конфинденциальности</a></div>
+          </div>
+        </footer>
+        <div class="mfp-hide popup popup-question" id="popup-question">
+          <button class="popup__close" type="button">
+            <svg class="svg-icon icon-close popup__close-icon">
+              <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <div class="popup__header">
+            <h2 class="popup__title">Ищешь ответ на вопрос, с которым нужна помощь?</h2>
+          </div>
+          <div class="popup__content">
+            <form class="popup-form" action="" method="POST">
+              <textarea class="popup-form__textarea" placeholder="Запиши свой вопрос здесь,(кратко и понятно - для отличного ответа)"></textarea>
+              <div class="popup-form__options">
+                <div class="file-upload">
+                  <button class="file-upload__btn" type="button">
+                    <label class="file-upload__label">
+                      <input class="file-upload__field" type="file">
+                      <svg class="svg-icon icon-attach file-upload__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#attach"></use>
+                      </svg><span class="file-upload__text">Прикрепить файл</span>
+                    </label>
+                  </button>
+                </div>
+                <div class="new-nav popup-form__new">
+                  <ul class="new-nav__list">
+                    <li class="new-nav__item popup-form__item">
+                      <button class="btn new-nav__btn popup-form__btn" type="button"><span class="new-nav__text">Выбери предмет</span>
+                        <svg class="svg-icon icon-down-arrow new-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#down-arrow"></use>
+                        </svg>
+                      </button>
+                      <div class="new-dropdown"><span class="new-dropdown__item">Все классы</span><span class="new-dropdown__item">Первый класс</span><span class="new-dropdown__item">Второй класс</span><span class="new-dropdown__item">Третий класс</span><span class="new-dropdown__item">Четвертый класс</span><span class="new-dropdown__item">Пятый класс</span></div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="points-user popup__points"><span class="points-user__title">У вас</span>
+                  <svg class="svg-icon icon-points-user points-user__icon popup__points-icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#points-user"></use>
+                  </svg>
+                  <p class="points-user__num"><span class="points-user__num points-user__num--current">+14</span></p>
+                </div>
+              </div>
+              <button class="btn question-link popup-form__send" type="submit">Задать вопрос</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <noscript><link rel="stylesheet" href="css/styles.min.css"></noscript>
+  </body>
+</html>
